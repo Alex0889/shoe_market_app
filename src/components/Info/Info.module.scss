@@ -1,0 +1,39 @@
+@import "../../base-styles/button";
+
+.info {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  scroll-behavior: unset;
+  img {
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+  }
+  p {
+    width: 70%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: .4;
+    margin-bottom: 40px;
+  }
+  .btn {
+    width: 70%;
+    &:hover {
+      img {
+        transform: translateX(-10px);
+      }
+    }
+    img {
+      left: 40px;
+    }
+  }
+}

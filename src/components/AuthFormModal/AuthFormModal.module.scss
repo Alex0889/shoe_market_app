@@ -1,0 +1,83 @@
+@import "../../base-styles/button";
+
+.authFormModal {
+  position: relative;
+  width: 250px;
+
+  h3 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  label {
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    outline: rgba(0, 0, 0, 0);
+  }
+
+  p {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  span {
+    margin: 5px 0;
+    b {
+      color: #9DD558;
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+  }
+
+  .error {
+    input {
+      border-color: red;
+    }
+    .errorSpan {
+      font-size: 10px;
+      color: red;
+      margin-bottom: 0;
+    }
+  }
+
+  .btn {
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  .icon {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 20px;
+    height: 20px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    cursor: pointer;
+  }
+}

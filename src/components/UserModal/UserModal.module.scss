@@ -1,0 +1,41 @@
+.userModal {
+  position: relative;
+  padding: 10px;
+
+  h3 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      font-weight: bold;
+      color: #9DD558;
+      cursor: pointer;
+      margin-bottom: 5px;
+
+      a {
+        text-decoration: none;
+        color: #9DD558;
+      }
+    }
+  }
+}
+
+.icon {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 20px;
+  height: 20px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  cursor: pointer;
+}

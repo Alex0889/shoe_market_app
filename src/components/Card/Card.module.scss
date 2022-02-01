@@ -1,0 +1,79 @@
+.card {
+  border: 1px solid #f3f3f3;
+  border-radius: 40px;
+  padding: 20px;
+  width: 210px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+  }
+
+  &__wishlist {
+    position: absolute;
+    cursor: pointer;
+
+    img {
+      cursor: pointer;
+      opacity: .5;
+      transition: all .2s linear;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  h5 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 13px;
+        text-transform: uppercase;
+        color: #BDBDBD;
+      }
+
+      b {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+  }
+
+  &__btn_add {
+    background: #fff;
+    border: 1px solid #f2f2f2;
+    border-radius: 8px;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    opacity: .5;
+    transition: all .2s linear;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
